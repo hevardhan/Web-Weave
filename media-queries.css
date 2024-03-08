@@ -1,0 +1,82 @@
+@media screen and (max-width: 1000px) {
+    nav {
+        display: none;
+    }
+  
+    #hamburger-nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .nav-name{
+        font-size: 70%;
+        margin-left: 10px;
+        color: black;
+    }
+
+    .hamburger-icon{
+      margin-right: 30px;
+    }
+  
+    #hamburger-nav.sticky{
+      background-color: rgba(255, 255, 255, 0.8); /* Background color with transparency */
+      backdrop-filter: blur(5px);
+      height: 100px;
+      border-bottom: 1px solid #dcdcdc;
+      transition: .1s;
+    }
+    
+    .home-img{
+        display: none;
+    }
+
+    .home-content{
+        justify-content: center;
+    }
+
+    .bar{
+        margin:0 auto;
+        width:400px;
+        border-radius:30px;
+        border:1px solid #dcdcdc;
+        display: flex;
+    }
+
+    .searchbar{
+        width: 325px;
+    }
+
+    .result{
+        margin:0 auto;
+        width:370px;
+        margin-top: 10px;
+        display: flex;
+    }
+
+    #about{
+        display: flex;
+        flex-direction: row;
+
+    } 
+      
+    .right-content, .left-content{
+        text-align: center;
+        transform: scale(.5) translateX(-200px);
+    }
+    
+    .card-2{
+        transform: scale(.5);
+    }
+    .middle-text{
+        overflow: visible;
+        font-weight:bolder !important;
+        margin: 10px;
+        position: absolute;
+        align-self: center;
+        transform: translateY(-215px);
+    }
+
+    #events{
+        transform: scale(.3) translateX(-1250px) translateY(-2000px);
+    }
+}
