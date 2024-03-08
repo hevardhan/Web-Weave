@@ -29,6 +29,9 @@
       border-bottom: 1px solid #dcdcdc;
       transition: .1s;
     }
+    .web-name {
+        font-size: 200px;
+      }
     
     .home-img{
         display: none;
@@ -64,8 +67,10 @@
     } 
       
     .right-content, .left-content{
-        text-align: center;
+        text-align: left;
         transform: scale(.5) translateX(-200px);
+        justify-content: center;
+        align-items: center;
     }
     
     .card-2{

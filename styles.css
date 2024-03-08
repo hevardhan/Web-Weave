@@ -269,6 +269,11 @@ body{
     font-size: 400%;
 }
 
+.web-name span{
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+}
+
 .icons{
     display: flex;
     justify-content: center;
@@ -815,6 +820,18 @@ box-sizing:border-box;
   font-size: 500%;
   margin-top: 100px;
   margin-bottom: 0px;
+}
+
+.points{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+}
+
+.points img{
+  width: 10px;
 }
 .events-bottom{
   display: flex;
