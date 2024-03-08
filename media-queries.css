@@ -30,7 +30,7 @@
       transition: .1s;
     }
     .web-name {
-        font-size: 200px;
+        font-size: 40px;
       }
     
     .home-img{
@@ -68,21 +68,25 @@
       
     .right-content, .left-content{
         text-align: left;
-        transform: scale(.5) translateX(-200px);
+        transform: scale(.3) translateX(-300px);
         justify-content: center;
         align-items: center;
     }
     
+    
+
     .card-2{
         transform: scale(.5);
     }
-    .middle-text{
+    .middle-div{
         overflow: visible;
         font-weight:bolder !important;
+        font-size: 41px;
         margin: 10px;
-        position: absolute;
+        display: contents;
         align-self: center;
-        transform: translateY(-215px);
+        /* text-align: center; */
+        /* transform: translateX(-00px); */
     }
 
     #events{
