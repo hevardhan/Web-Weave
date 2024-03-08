@@ -26,10 +26,11 @@ window.onload = function() {
 document.addEventListener("DOMContentLoaded", function() {
     var searchBar = document.getElementById("searchbar");
     var sentences = [
-        "Who are these guys ?",
-        "Does SIT, Pune have GDSC ?",
-        "What do they do ?",
-        "Can I join them ?",
+        "What is GDSC ?",
+        "GDSC में लोग क्या करते हैं ?",
+        "What is the benefit of being GDSC Member ?",
+        "How to join GDSC ?",
+        "Who is the Lead of this club ?",
         // Add more sentences as needed
     ];
 
@@ -184,3 +185,4 @@ function togglemenu(){
   menu.classList.toggle("open")
   icon.classList.toggle("open")
 }
+

@@ -1,4 +1,7 @@
 @media screen and (max-width: 1000px) {
+    body{
+        overflow-x: hidden;
+    }
     nav {
         display: none;
     }
@@ -13,6 +16,7 @@
         margin-left: 10px;
         color: black;
     }
+
 
     .hamburger-icon{
       margin-right: 30px;

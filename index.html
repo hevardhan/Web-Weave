@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>GDSC-SIT</title>
    
 </head>
@@ -81,11 +82,23 @@
             <img src="imgs/giphy.gif" class="home-img">
             <div class="home-text">
                 <div>
-                    <h5>Welcome to</h5>
+                    <h5 style="font-size: 120%; color:#232B2B;">Welcome to</h5>
                     <h3 class="web-name">
-                        <span style="">
-                            Google
-                        </span> Developer<br>Student Club</h3>
+                        <span style="color: #0057e7; font-size: 150%;">
+                            G
+                        </span>
+                        <span style="color: #d62d20;font-size: 150%;">
+                            D
+                        </span> 
+                        <span style="color: #ffa700;font-size: 150%;">
+                            S
+                        </span> 
+                        <span style="color: #008744;font-size: 150%;">
+                            C
+                        </span>
+                        <span style="color: black;font-size: 80%;">
+                            <br>SIT, Pune</h3>
+                        </span>
                     <!-- <p style="margin-top: 20px;">Some random text to breif about gdsc in a very detailed manner</p> -->
                     <div class="card-home">
                         <a href="#" class="socialContainer containerOne">
@@ -115,11 +128,9 @@
               <div class="title">Meet the Leads</div>
               <div class="sub-title">
                 <h4>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
-                    qui quis, facere, cupiditate, doloremque natus ex perspiciatis
-                    ratione hic corrupti adipisci ea doloribus!
+                    Our team combines expertise and dedication, collaborating seamlessly to tackle any challenge and deliver exceptional results
                 </h4>
-                <br />
+                <br>
                 <button><h3>Join Us</h3></button>
               </div>
             </div>
@@ -130,7 +141,7 @@
                     <img src="Core Images/11.png">
                   </div>
                   <div class="card-title">Prachi Lal<br>
-                      <span>Main Lead &amp; UX UI</span>
+                      <span>Club Lead</span>
                   </div>
                   <div class="card-socials">
                       <button class="card-socials-btn facebook">
@@ -434,11 +445,13 @@
                     ></path>
                   </svg>
                 </div>
-                <div class="card_container">
-                  <svg class="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <img src="imgs/WhatsApp Image 2024-03-01 at 11.19.30_1d3d2705.jpg" alt="">
-                  </svg>
-                </div>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <div class="card_container">
+                      <svg class="image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <img src="imgs/WhatsApp Image 2024-03-01 at 11.19.30_1d3d2705.jpg" alt="">
+                      </svg>
+                    </div>
+                </a>
                 <div class="sub-card named">
                   <span class="text_span">8 March 2024</span>
                 </div>
@@ -542,5 +555,44 @@
         </div>
     </section>
     <script src="script.js"></script>
+    <footer>
+        <div class="footer-content">
+            <h3>Google Developer Student Club</h3>
+            <p>Symbiosis Institute Of Technology, Pune</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Designed with 💖</p>
+        </div>
+    </footer>
+    <script src="confetti.js"></script>
+    <!-- Confetti  JS-->
+    <script>
+
+        // start
+
+        const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 1000); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        };
+
+        //  Stop
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+        };
+
+        start();
+        stop();
+    </script>
 </body>
 </html>
